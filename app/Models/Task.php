@@ -20,7 +20,7 @@ class Task extends Model
     }
     public function subTasks()
     {
-        return $this->hasMany('App\Models\subTask', 'task_id');
+        return $this->hasMany('App\Models\SubTask', 'task_id');
     }
 
     public function files()
